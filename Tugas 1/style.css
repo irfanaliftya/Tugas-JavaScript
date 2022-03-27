@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background: #43665A;
+    box-sizing: border-box;
+}
+
+.header h2{
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+.header p{
+    padding: 0;
+    margin: 0;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.logo a{
+    padding-left: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar{
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    float: left;
+    padding: 14px 5px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.navbar ul li a:hover{
+    background: #43665A;
+}
+
+.content{
+    clear: both;
+    width: 100%;
+    height: calc(100vh - 160px);
+    background: #66434F;
+}
+
+.leftbar{
+    width: 20%;
+    min-height: 60%;
+    float: left;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.leftbar h2{
+    padding-left: 30px;
+}
+
+.menu-leftbar ul{
+    padding: 0;
+    margin: 0;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.menu-leftbar ul li{
+    padding-bottom: 10px;
+}
+
+.middlebar{
+    width: calc(60% - 40px);
+    height: 100%;
+    margin: 0 20px;
+    padding: 0 20px;
+    float: left;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.middlebar p{
+    text-align: justify;
+}
+
+.sidebar{
+    width: 20%;
+    min-height: 60%;
+    padding: 0 20px;
+    float: left;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.detail-sidebar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.detail-sidebar ul li{
+    padding: 5px 0;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    clear: both;
+    background: #43665A;
+    box-sizing: border-box;
+}
+
+.footer h2{
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    line-height: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer p{
+    text-align: center;
+    color: #ffffff;
+}
